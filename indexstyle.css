@@ -1,0 +1,277 @@
+body {
+    margin: 0%;
+}
+
+@font-face {
+    font-family: FontOne;
+    src: url(Mukta/Mukta-Bold.ttf);
+  }
+
+/* Style Header */
+header {
+    background-color: gray;
+    top: 0%;
+    padding: 1%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header h1 {
+    left: 0%;
+    padding-left: 10%;
+}
+
+/* Style Nav */
+nav {
+    background-color: gainsboro;
+    padding: 1%;
+    width: 100%;
+}
+
+nav ol {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: FontOne;
+}
+
+nav a:hover {
+    background-color: rgb(0, 152, 0);
+    padding: 20%;
+}
+
+.currentpage {
+    background-color: green;
+    color: white;
+    padding: 20%;
+}
+
+
+/* Style Body */
+
+
+
+
+/* Style Structure Index */
+
+.bigcontainer {
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.container2 {
+    display: flex;
+    gap: 15px;
+}
+
+/*Style article of the day*/
+.eaeayo{
+    position:relative;    
+}
+
+.eaeayo:hover > .explorearticleimage{
+    height: 300px;
+}
+
+.explorearticle {
+    padding-top:0%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255, 0.6);
+    font-size: small;
+    font-family: FontOne;
+    position:absolute;
+    bottom: 0%;
+    left: 46%;
+    width: 200px;
+    transform: translate(-50%, -50%);
+}
+
+.explorearticleimage {
+    height: 290px;
+}
+
+
+/*Style dinosaur of the day*/
+.dinoday{
+    position:relative;    
+}
+
+.dinoday:hover > .baryonyxexploreimg {
+    height: 300px;
+}
+
+.baryonyxexploreimg {
+    height: 290px;
+}
+
+.exploredino1 {
+    padding-top: 0%;
+    color: black;
+    background-color: rgb(255, 255, 255, 0.6);
+    font-size: small;
+    font-family: FontOne;
+    position: absolute;
+    bottom: 0%;
+    left: 46%;
+    width: 150px;
+    transform: translate(-50%, -50%);
+}
+
+/*Style popular article*/
+
+.dinosaurshrinkwrap{
+    position:relative;    
+}
+
+.dinosaurshrinkwrap:hover > .shrinkwrapimage {
+    height: 590px;
+}
+
+.shrinkwrapimage {
+    height: 580px;
+}
+
+.shrinkwraptext {
+    padding-top: 0%;
+    color: black;
+    background-color: rgb(255, 255, 255, 0.6);
+    font-size: larger;
+    font-family: FontOne;
+    position: absolute;
+    bottom: 0%;
+    left: 46%;
+    width: 250px;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Style Sauropod article link */
+.sauropods{
+    position:relative;    
+}
+
+.sauropods:hover > .sauropodimg {
+    height: 296px;
+}
+
+.sauropodimg {
+    height: 286px;
+}
+
+.sauropodtext {
+    padding-top: 0%;
+    color: black;
+    background-color: rgb(255, 255, 255, 0.6);
+    font-size: small;
+    font-family: FontOne;
+    position: absolute;
+    bottom: 0%;
+    left: 46%;
+    width: 150px;
+    transform: translate(-50%, -50%);
+}
+
+/* Style excavation site contest */
+
+.win{
+    position:relative;    
+}
+
+.win:hover > .winimg{
+    height: 296px;
+}
+
+.wintext {
+    padding-top:0%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255, 0.6);
+    font-size: small;
+    font-family: FontOne;
+    position:absolute;
+    bottom: 0%;
+    left: 46%;
+    width: 200px;
+    transform: translate(-50%, -50%);
+}
+
+.winimg {
+    height: 286px;
+}
+
+/* Style Learn*/
+
+main {
+    top: 20%;
+    color: black;
+    font-family: FontOne;
+}
+
+main div {
+    color: gray;  
+}
+
+.wikidinoheader {
+    bottom: 100%;
+    color: black;
+}
+
+/* Style hyperlinks in learn */
+
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.learnhyperlinks {
+    background-color: gray;
+    width: 240px;
+    padding: 1%;
+}
+
+.learnhyperlinks a {
+    color: white;
+}
+
+/* Style Articles */
+
+.articlethisweek {
+    color: black;
+    display: flex;
+    margin: 10px;
+}
+
+.articlesearch {
+    height: 40px;
+    margin-top: 28px;
+    position: relative;
+    left: 90%;
+    /* text-align: right;
+    float: right;
+    margin-right: 15px; */
+}
+
+.articlesearch:hover {
+    height: 42px;
+}
+
+.recentarticle {
+    width: 100%;
+    height: 50%;
+    gap: 10%;
+    border: black solid 1px;
+    
+}
+
+/* Style Table in Articles */
+
+.table
