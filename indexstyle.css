@@ -255,6 +255,7 @@ main{
     margin-top: 28px;
     position: relative;
     left: 90%;
+    margin-left: -10%;
     /* text-align: right;
     float: right;
     margin-right: 15px; */
@@ -264,14 +265,90 @@ main{
     height: 42px;
 }
 
-.recentarticle {
-    width: 100%;
-    height: 50%;
-    gap: 10%;
-    border: black solid 1px;
-    
-}
+
 
 /* Style Table in Articles */
 
-.table
+.articletable {
+    width: 100%;
+}
+
+.articletable td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: gainsboro;
+  }
+
+.articletable td {
+    font-style: italic;
+}
+
+.articletable th {
+    background-color: grey;
+}
+
+.articletabletr:hover {
+    color: grey;
+}
+
+
+/* Style Sorted Articles */
+
+.sortingarticles {
+    display: flex;
+    margin-top: 50px;
+}
+
+.sortarticles {
+    margin-left:65%;
+    color: white;
+    padding: 1%;
+    background-color: grey;
+
+}
+
+.alltimepopulararticles {
+    color: white;
+    background-color: grey;
+    padding: 0.1%;
+    font-size: x-large;
+}
+
+.sortarticles:hover {
+    background-color: gainsboro;
+    color: grey;
+}
+
+.azarticles {
+    margin-left:65%;
+    color: white;
+    padding: 0.1%;
+    background-color: grey;
+}
+
+.azarticles:hover {
+    background-color: gainsboro;
+    color: grey;
+}
+
+
+/* Style A-Z Dinosaurs */
+.A-Ztable {
+    width: 100%;
+}
+
+.A-Ztable td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: gainsboro;
+  }
+
+.A-Ztable td {
+    font-style: italic;
+}
+
+.A-Ztable th {
+    background-color: grey;
+}
